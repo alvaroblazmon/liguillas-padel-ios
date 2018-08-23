@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A3212F1A0B004AAA95 /* AppDelegate.swift */; };
+		387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A5212F1A0B004AAA95 /* ViewController.swift */; };
+		387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266A7212F1A0B004AAA95 /* Main.storyboard */; };
+		387266AB212F1A0D004AAA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387266AA212F1A0D004AAA95 /* Assets.xcassets */; };
+		387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */; };
+		387266B9212F1A0D004AAA95 /* LiguillasPadelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */; };
+		387266C4212F1A0D004AAA95 /* LiguillasPadelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387266B5212F1A0D004AAA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38726698212F1A0B004AAA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3872669F212F1A0B004AAA95;
+			remoteInfo = LiguillasPadel;
+		};
+		387266C0212F1A0D004AAA95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38726698212F1A0B004AAA95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3872669F212F1A0B004AAA95;
+			remoteInfo = LiguillasPadel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387266A0212F1A0B004AAA95 /* LiguillasPadel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiguillasPadel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387266A3212F1A0B004AAA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		387266A5212F1A0B004AAA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		387266A8212F1A0B004AAA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387266AA212F1A0D004AAA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387266AD212F1A0D004AAA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		387266AF212F1A0D004AAA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387266B4212F1A0D004AAA95 /* LiguillasPadelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguillasPadelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguillasPadelTests.swift; sourceTree = "<group>"; };
+		387266BA212F1A0D004AAA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387266BF212F1A0D004AAA95 /* LiguillasPadelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguillasPadelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguillasPadelUITests.swift; sourceTree = "<group>"; };
+		387266C5212F1A0D004AAA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3872669D212F1A0B004AAA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266B1212F1A0D004AAA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266BC212F1A0D004AAA95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38726697212F1A0B004AAA95 = {
+			isa = PBXGroup;
+			children = (
+				387266A2212F1A0B004AAA95 /* LiguillasPadel */,
+				387266B7212F1A0D004AAA95 /* LiguillasPadelTests */,
+				387266C2212F1A0D004AAA95 /* LiguillasPadelUITests */,
+				387266A1212F1A0B004AAA95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387266A1212F1A0B004AAA95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387266A0212F1A0B004AAA95 /* LiguillasPadel.app */,
+				387266B4212F1A0D004AAA95 /* LiguillasPadelTests.xctest */,
+				387266BF212F1A0D004AAA95 /* LiguillasPadelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387266A2212F1A0B004AAA95 /* LiguillasPadel */ = {
+			isa = PBXGroup;
+			children = (
+				387266A3212F1A0B004AAA95 /* AppDelegate.swift */,
+				387266A5212F1A0B004AAA95 /* ViewController.swift */,
+				387266A7212F1A0B004AAA95 /* Main.storyboard */,
+				387266AA212F1A0D004AAA95 /* Assets.xcassets */,
+				387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */,
+				387266AF212F1A0D004AAA95 /* Info.plist */,
+			);
+			path = LiguillasPadel;
+			sourceTree = "<group>";
+		};
+		387266B7212F1A0D004AAA95 /* LiguillasPadelTests */ = {
+			isa = PBXGroup;
+			children = (
+				387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */,
+				387266BA212F1A0D004AAA95 /* Info.plist */,
+			);
+			path = LiguillasPadelTests;
+			sourceTree = "<group>";
+		};
+		387266C2212F1A0D004AAA95 /* LiguillasPadelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */,
+				387266C5212F1A0D004AAA95 /* Info.plist */,
+			);
+			path = LiguillasPadelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3872669F212F1A0B004AAA95 /* LiguillasPadel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387266C8212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadel" */;
+			buildPhases = (
+				3872669C212F1A0B004AAA95 /* Sources */,
+				3872669D212F1A0B004AAA95 /* Frameworks */,
+				3872669E212F1A0B004AAA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiguillasPadel;
+			productName = LiguillasPadel;
+			productReference = 387266A0212F1A0B004AAA95 /* LiguillasPadel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387266B3212F1A0D004AAA95 /* LiguillasPadelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387266CB212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelTests" */;
+			buildPhases = (
+				387266B0212F1A0D004AAA95 /* Sources */,
+				387266B1212F1A0D004AAA95 /* Frameworks */,
+				387266B2212F1A0D004AAA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387266B6212F1A0D004AAA95 /* PBXTargetDependency */,
+			);
+			name = LiguillasPadelTests;
+			productName = LiguillasPadelTests;
+			productReference = 387266B4212F1A0D004AAA95 /* LiguillasPadelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387266BE212F1A0D004AAA95 /* LiguillasPadelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387266CE212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelUITests" */;
+			buildPhases = (
+				387266BB212F1A0D004AAA95 /* Sources */,
+				387266BC212F1A0D004AAA95 /* Frameworks */,
+				387266BD212F1A0D004AAA95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387266C1212F1A0D004AAA95 /* PBXTargetDependency */,
+			);
+			name = LiguillasPadelUITests;
+			productName = LiguillasPadelUITests;
+			productReference = 387266BF212F1A0D004AAA95 /* LiguillasPadelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38726698212F1A0B004AAA95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alvaro Blazquez Montero";
+				TargetAttributes = {
+					3872669F212F1A0B004AAA95 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					387266B3212F1A0D004AAA95 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3872669F212F1A0B004AAA95;
+					};
+					387266BE212F1A0D004AAA95 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3872669F212F1A0B004AAA95;
+					};
+				};
+			};
+			buildConfigurationList = 3872669B212F1A0B004AAA95 /* Build configuration list for PBXProject "LiguillasPadel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38726697212F1A0B004AAA95;
+			productRefGroup = 387266A1212F1A0B004AAA95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3872669F212F1A0B004AAA95 /* LiguillasPadel */,
+				387266B3212F1A0D004AAA95 /* LiguillasPadelTests */,
+				387266BE212F1A0D004AAA95 /* LiguillasPadelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3872669E212F1A0B004AAA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */,
+				387266AB212F1A0D004AAA95 /* Assets.xcassets in Resources */,
+				387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266B2212F1A0D004AAA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266BD212F1A0D004AAA95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3872669C212F1A0B004AAA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */,
+				387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266B0212F1A0D004AAA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387266B9212F1A0D004AAA95 /* LiguillasPadelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387266BB212F1A0D004AAA95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387266C4212F1A0D004AAA95 /* LiguillasPadelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387266B6212F1A0D004AAA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3872669F212F1A0B004AAA95 /* LiguillasPadel */;
+			targetProxy = 387266B5212F1A0D004AAA95 /* PBXContainerItemProxy */;
+		};
+		387266C1212F1A0D004AAA95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3872669F212F1A0B004AAA95 /* LiguillasPadel */;
+			targetProxy = 387266C0212F1A0D004AAA95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387266A7212F1A0B004AAA95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387266A8212F1A0B004AAA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387266AD212F1A0D004AAA95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387266C6212F1A0D004AAA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		387266C7212F1A0D004AAA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387266C9212F1A0D004AAA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387266CA212F1A0D004AAA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		387266CC212F1A0D004AAA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiguillasPadel.app/LiguillasPadel";
+			};
+			name = Debug;
+		};
+		387266CD212F1A0D004AAA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiguillasPadel.app/LiguillasPadel";
+			};
+			name = Release;
+		};
+		387266CF212F1A0D004AAA95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiguillasPadel;
+			};
+			name = Debug;
+		};
+		387266D0212F1A0D004AAA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JNUKPQ5K9Y;
+				INFOPLIST_FILE = LiguillasPadelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nural.smart.LiguillasPadelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiguillasPadel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3872669B212F1A0B004AAA95 /* Build configuration list for PBXProject "LiguillasPadel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387266C6212F1A0D004AAA95 /* Debug */,
+				387266C7212F1A0D004AAA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387266C8212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387266C9212F1A0D004AAA95 /* Debug */,
+				387266CA212F1A0D004AAA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387266CB212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387266CC212F1A0D004AAA95 /* Debug */,
+				387266CD212F1A0D004AAA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387266CE212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387266CF212F1A0D004AAA95 /* Debug */,
+				387266D0212F1A0D004AAA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38726698212F1A0B004AAA95 /* Project object */;
+}
