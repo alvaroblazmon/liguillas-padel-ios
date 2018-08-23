@@ -97,12 +97,10 @@
 		387266A2212F1A0B004AAA95 /* LiguillasPadel */ = {
 			isa = PBXGroup;
 			children = (
-				387266A3212F1A0B004AAA95 /* AppDelegate.swift */,
+				387266D1212F1C4E004AAA95 /* Mandatory */,
 				387266A5212F1A0B004AAA95 /* ViewController.swift */,
 				387266A7212F1A0B004AAA95 /* Main.storyboard */,
-				387266AA212F1A0D004AAA95 /* Assets.xcassets */,
 				387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */,
-				387266AF212F1A0D004AAA95 /* Info.plist */,
 			);
 			path = LiguillasPadel;
 			sourceTree = "<group>";
@@ -123,6 +121,16 @@
 				387266C5212F1A0D004AAA95 /* Info.plist */,
 			);
 			path = LiguillasPadelUITests;
+			sourceTree = "<group>";
+		};
+		387266D1212F1C4E004AAA95 /* Mandatory */ = {
+			isa = PBXGroup;
+			children = (
+				387266AF212F1A0D004AAA95 /* Info.plist */,
+				387266AA212F1A0D004AAA95 /* Assets.xcassets */,
+				387266A3212F1A0B004AAA95 /* AppDelegate.swift */,
+			);
+			path = Mandatory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
