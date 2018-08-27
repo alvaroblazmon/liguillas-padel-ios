@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12543D6F0682991D8EBDA05F /* Pods_LiguillasPadelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B813AB2286DC0C0F4E89A /* Pods_LiguillasPadelUITests.framework */; };
 		387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A3212F1A0B004AAA95 /* AppDelegate.swift */; };
 		387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A5212F1A0B004AAA95 /* ViewController.swift */; };
 		387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266A7212F1A0B004AAA95 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */; };
 		387266B9212F1A0D004AAA95 /* LiguillasPadelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */; };
 		387266C4212F1A0D004AAA95 /* LiguillasPadelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */; };
+		A99486D5EB919EA97A03A2E4 /* Pods_LiguillasPadel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */; };
+		DF2FA6CBB7ED652820C5BF3B /* Pods_LiguillasPadelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0263CFEE6A093C6ABC2F5BEE /* Pods-LiguillasPadel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel.debug.xcconfig"; sourceTree = "<group>"; };
 		387266A0212F1A0B004AAA95 /* LiguillasPadel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiguillasPadel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387266A3212F1A0B004AAA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		387266A5212F1A0B004AAA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		387266BF212F1A0D004AAA95 /* LiguillasPadelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiguillasPadelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguillasPadelUITests.swift; sourceTree = "<group>"; };
 		387266C5212F1A0D004AAA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelUITests/Pods-LiguillasPadelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D5AF6D62039D80112EC539 /* Pods-LiguillasPadelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0671DF8FFCC8F0DE0363D8 /* Pods-LiguillasPadelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6082E7788B4B29640135AF6 /* Pods-LiguillasPadelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelUITests/Pods-LiguillasPadelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DB41087629869817BC8CF64E /* Pods-LiguillasPadel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadel.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel.release.xcconfig"; sourceTree = "<group>"; };
+		EA1B813AB2286DC0C0F4E89A /* Pods_LiguillasPadelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A99486D5EB919EA97A03A2E4 /* Pods_LiguillasPadel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF2FA6CBB7ED652820C5BF3B /* Pods_LiguillasPadelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12543D6F0682991D8EBDA05F /* Pods_LiguillasPadelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				387266B7212F1A0D004AAA95 /* LiguillasPadelTests */,
 				387266C2212F1A0D004AAA95 /* LiguillasPadelUITests */,
 				387266A1212F1A0B004AAA95 /* Products */,
+				66594347F917E701C8F849A0 /* Pods */,
+				DD9E4F0F218433F36E418011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +150,29 @@
 			path = Mandatory;
 			sourceTree = "<group>";
 		};
+		66594347F917E701C8F849A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0263CFEE6A093C6ABC2F5BEE /* Pods-LiguillasPadel.debug.xcconfig */,
+				DB41087629869817BC8CF64E /* Pods-LiguillasPadel.release.xcconfig */,
+				A8D5AF6D62039D80112EC539 /* Pods-LiguillasPadelTests.debug.xcconfig */,
+				AF0671DF8FFCC8F0DE0363D8 /* Pods-LiguillasPadelTests.release.xcconfig */,
+				725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */,
+				D6082E7788B4B29640135AF6 /* Pods-LiguillasPadelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD9E4F0F218433F36E418011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */,
+				5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */,
+				EA1B813AB2286DC0C0F4E89A /* Pods_LiguillasPadelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 387266C8212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadel" */;
 			buildPhases = (
+				1186B9D128E98636E8F5F19A /* [CP] Check Pods Manifest.lock */,
 				3872669C212F1A0B004AAA95 /* Sources */,
 				3872669D212F1A0B004AAA95 /* Frameworks */,
 				3872669E212F1A0B004AAA95 /* Resources */,
+				BFC9037E2E98606DB2A35F43 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 387266CB212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelTests" */;
 			buildPhases = (
+				645B7B22DA81F8374467843A /* [CP] Check Pods Manifest.lock */,
 				387266B0212F1A0D004AAA95 /* Sources */,
 				387266B1212F1A0D004AAA95 /* Frameworks */,
 				387266B2212F1A0D004AAA95 /* Resources */,
@@ -175,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 387266CE212F1A0D004AAA95 /* Build configuration list for PBXNativeTarget "LiguillasPadelUITests" */;
 			buildPhases = (
+				1486D67AD7ED0791BFC0E0B2 /* [CP] Check Pods Manifest.lock */,
 				387266BB212F1A0D004AAA95 /* Sources */,
 				387266BC212F1A0D004AAA95 /* Frameworks */,
 				387266BD212F1A0D004AAA95 /* Resources */,
@@ -258,6 +302,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1186B9D128E98636E8F5F19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiguillasPadel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1486D67AD7ED0791BFC0E0B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiguillasPadelUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		645B7B22DA81F8374467843A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiguillasPadelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFC9037E2E98606DB2A35F43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3872669C212F1A0B004AAA95 /* Sources */ = {
@@ -436,6 +575,7 @@
 		};
 		387266C9212F1A0D004AAA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0263CFEE6A093C6ABC2F5BEE /* Pods-LiguillasPadel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +594,7 @@
 		};
 		387266CA212F1A0D004AAA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB41087629869817BC8CF64E /* Pods-LiguillasPadel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +613,7 @@
 		};
 		387266CC212F1A0D004AAA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D5AF6D62039D80112EC539 /* Pods-LiguillasPadelTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +635,7 @@
 		};
 		387266CD212F1A0D004AAA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0671DF8FFCC8F0DE0363D8 /* Pods-LiguillasPadelTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +657,7 @@
 		};
 		387266CF212F1A0D004AAA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -534,6 +678,7 @@
 		};
 		387266D0212F1A0D004AAA95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6082E7788B4B29640135AF6 /* Pods-LiguillasPadelUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
