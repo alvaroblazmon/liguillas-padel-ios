@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Crashlytics
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //Crashlytics.sharedInstance().crash()
     }
 
     override func didReceiveMemoryWarning() {
