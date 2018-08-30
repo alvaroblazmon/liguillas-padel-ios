@@ -17,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         configureLibraries()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
+        
+        let mainViewController = UITabBarController()
+        
+        
+        /*let mainViewController = UITabBarController()
+        let mainCoordinator = MainCoordinator(tabBarController: mainViewController, window: window)
+            mainCoordinator.start()
+        } else {
+            let navigationController = UINavigationController()
+            window?.rootViewController = navigationController
+            window?.makeKeyAndVisible()
+            let appCoordinator = AppCoordinator(navigationController: navigationController)
+            appCoordinator.start()
+        }*/
 
         return true
     }

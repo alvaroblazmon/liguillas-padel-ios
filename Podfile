@@ -9,6 +9,9 @@ target 'LiguillasPadel' do
     pod 'Firebase/Core'
     pod 'Fabric', '~> 1.7.7'
     pod 'Crashlytics', '~> 3.10.2'
+    pod 'Kingfisher', '~> 4.0'
+    pod 'SwiftyJSON'
+    pod 'SwiftMessages'
 
   target 'LiguillasPadelTests' do
     inherit! :search_paths

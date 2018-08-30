@@ -48,7 +48,7 @@ class MatchItemVM {
     }
     
     var isFinish: Bool {
-        return match.status == Match.Status.Close
+        return match.status == Match.Status.close
     }
     
     func set(number: Int) -> Set? {

@@ -31,6 +31,16 @@
 		839A086A2137D37000346853 /* MatchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A085B2137D37000346853 /* MatchTVC.swift */; };
 		839A086B2137D37000346853 /* MatchTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839A085C2137D37000346853 /* MatchTVC.xib */; };
 		839A086C2137D37000346853 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A085D2137D37000346853 /* CalendarVC.swift */; };
+		839A086F2137D66600346853 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A086E2137D66600346853 /* MainCoordinator.swift */; };
+		839A08712137D68900346853 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08702137D68900346853 /* AppCoordinator.swift */; };
+		839A08742137D9C700346853 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08732137D9C700346853 /* Helpers.swift */; };
+		839A08762137DA6E00346853 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08752137DA6E00346853 /* HomeCoordinator.swift */; };
+		839A08792137DE0700346853 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08782137DE0700346853 /* ViewModel.swift */; };
+		839A087B2137DE9200346853 /* ExtensionMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A087A2137DE9200346853 /* ExtensionMoya.swift */; };
+		839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A087C2137DEBD00346853 /* ViewModelDelegate.swift */; };
+		839A08802137DF0900346853 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A087F2137DF0900346853 /* HomeService.swift */; };
+		839A08822137E00600346853 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08812137E00600346853 /* Constant.swift */; };
+		839A08842137E0B600346853 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08832137E0B600346853 /* HomeVM.swift */; };
 		A99486D5EB919EA97A03A2E4 /* Pods_LiguillasPadel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */; };
 		DF2FA6CBB7ED652820C5BF3B /* Pods_LiguillasPadelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +95,16 @@
 		839A085B2137D37000346853 /* MatchTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTVC.swift; sourceTree = "<group>"; };
 		839A085C2137D37000346853 /* MatchTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MatchTVC.xib; sourceTree = "<group>"; };
 		839A085D2137D37000346853 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		839A086E2137D66600346853 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		839A08702137D68900346853 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		839A08732137D9C700346853 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		839A08752137DA6E00346853 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		839A08782137DE0700346853 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		839A087A2137DE9200346853 /* ExtensionMoya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionMoya.swift; sourceTree = "<group>"; };
+		839A087C2137DEBD00346853 /* ViewModelDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelDelegate.swift; sourceTree = "<group>"; };
+		839A087F2137DF0900346853 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		839A08812137E00600346853 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		839A08832137E0B600346853 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D5AF6D62039D80112EC539 /* Pods-LiguillasPadelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF0671DF8FFCC8F0DE0363D8 /* Pods-LiguillasPadelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +166,9 @@
 		387266A2212F1A0B004AAA95 /* LiguillasPadel */ = {
 			isa = PBXGroup;
 			children = (
+				839A087E2137DEE700346853 /* Service */,
+				839A08722137D7CF00346853 /* Utils */,
+				839A086D2137D63D00346853 /* Coordinator */,
 				839A08472137D36F00346853 /* Data */,
 				839A08542137D37000346853 /* ViewControllers */,
 				839A084D2137D37000346853 /* ViewModel */,
@@ -220,6 +243,8 @@
 				839A08512137D37000346853 /* RankingItemVM.swift */,
 				839A08522137D37000346853 /* LeagueItemVM.swift */,
 				839A08532137D37000346853 /* TableItemVM.swift */,
+				839A08782137DE0700346853 /* ViewModel.swift */,
+				839A087C2137DEBD00346853 /* ViewModelDelegate.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -244,6 +269,7 @@
 		839A08562137D37000346853 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				839A08832137E0B600346853 /* HomeVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -273,6 +299,34 @@
 				839A085C2137D37000346853 /* MatchTVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		839A086D2137D63D00346853 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				839A086E2137D66600346853 /* MainCoordinator.swift */,
+				839A08702137D68900346853 /* AppCoordinator.swift */,
+				839A08752137DA6E00346853 /* HomeCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		839A08722137D7CF00346853 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				839A08732137D9C700346853 /* Helpers.swift */,
+				839A087A2137DE9200346853 /* ExtensionMoya.swift */,
+				839A08812137E00600346853 /* Constant.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		839A087E2137DEE700346853 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				839A087F2137DF0900346853 /* HomeService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		DD9E4F0F218433F36E418011 /* Frameworks */ = {
@@ -510,16 +564,22 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMessages.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,20 +595,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				839A08642137D37000346853 /* WeekItemVM.swift in Sources */,
+				839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */,
 				839A08682137D37000346853 /* TableItemVM.swift in Sources */,
+				839A08712137D68900346853 /* AppCoordinator.swift in Sources */,
 				387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */,
 				839A08672137D37000346853 /* LeagueItemVM.swift in Sources */,
 				839A08662137D37000346853 /* RankingItemVM.swift in Sources */,
 				839A086C2137D37000346853 /* CalendarVC.swift in Sources */,
 				839A086A2137D37000346853 /* MatchTVC.swift in Sources */,
+				839A087B2137DE9200346853 /* ExtensionMoya.swift in Sources */,
 				839A085F2137D37000346853 /* Week.swift in Sources */,
+				839A08822137E00600346853 /* Constant.swift in Sources */,
 				387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */,
+				839A08792137DE0700346853 /* ViewModel.swift in Sources */,
+				839A086F2137D66600346853 /* MainCoordinator.swift in Sources */,
 				839A08632137D37000346853 /* CalendarItemVM.swift in Sources */,
 				839A08652137D37000346853 /* MatchItemVM.swift in Sources */,
+				839A08742137D9C700346853 /* Helpers.swift in Sources */,
 				839A085E2137D37000346853 /* Match.swift in Sources */,
+				839A08802137DF0900346853 /* HomeService.swift in Sources */,
 				839A08622137D37000346853 /* Player.swift in Sources */,
+				839A08842137E0B600346853 /* HomeVM.swift in Sources */,
 				839A08612137D37000346853 /* League.swift in Sources */,
 				839A08602137D37000346853 /* Ranking.swift in Sources */,
+				839A08762137DA6E00346853 /* HomeCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
