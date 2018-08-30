@@ -9,19 +9,8 @@
 import SwiftyJSON
 import Moya
 
-/// View Model of country
-///
-/// - Parent: `ListVM`
-/// - Generic: `CountryItemVM` , `WakeUpService`
-/*class CountryVM: ListVM<CountryItemVM, WakeUpService> {
+class HomeVM: ListVM<LeagueItemVM, HomeService> {
     
-    /// Get the info of the countries with the Api Service
-    /// Delagate the response to his ViewController
-    ///
-    /// - Returns:            If everythings is OK, call render delegate else call render delegate with error
-    ///
-    /// - Remark:             If viewDelegate is nil, return a fatalError
-    /// - SeeAlso:            `ViewModelDelegate.render(state: ProcessViewState)`
     func reloadData() {
         guard let viewDelegate = self.viewDelegate else {
             fatalError("ViewModel without view delegate")
@@ -36,13 +25,16 @@ import Moya
             return
         }
         
-        apiService.request(.wakeup) { result in
+        apiService.request(.main) { result in
             switch result {
             case let .success(moyaResponse):
                 do {
                     _ = try moyaResponse.filterSuccessfulStatusCodes()
-                    let json = try JSON(data: moyaResponse.data)["response"].arrayValue
-                    self.data = json.map({ CountryItemVM(Country(json: $0)) })
+                    if let json = try JSON(data: moyaResponse.data).dictionary,
+                        let leagues = json["leagues"] {
+                        self.data = leagues.arrayValue.map { LeagueItemVM(League(json: $0)) }
+                    }
+  
                     viewDelegate.render(state: .loaded(Process.Main))
                 } catch {
                     viewDelegate.render(state: .error(.other))
@@ -55,11 +47,10 @@ import Moya
     
     /// Call to coordinator to go to the next screen
     func didSelectItemAt(index: Int) {
-        if let countryItemVM = itemAtIndex(index) {
-            UserDF.oldUser = true
-            UserDF.geoZone = countryItemVM.id
-            coordinator.performTransition(transition: AppTransition.goHome)
+        if let leagueItemVM = itemAtIndex(index) {
+            let transition = HomeTransition.goCalendar(calendarItemVM: leagueItemVM.calendar, parent: leagueItemVM)
+            coordinator.performTransition(transition: transition)
         }
     }
     
-}*/
+}

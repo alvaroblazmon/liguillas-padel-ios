@@ -11,16 +11,12 @@ import UIKit
 struct Constant {
     private init() {}
     
-    //DES
-    //public static let MYURLAPI = "http://prueba.site"
-    public static let MYURLAPI = "http://10.0.5.58"
-    public static let URLAPI = "http://nutritienda.api/app_dev.php"
-    public static let URLAPIV1 = "https://api.nutritienda.com/v1/"
+    public static let URLAPI = "http://www.liguillasdepadel.es/app/"
 
 }
 
 extension UIColor {
-    struct LP {
+    struct Padel {
         static let Pink =  UIColor(red: 250/255.0, green: 35/255.0, blue: 152/255.0, alpha: 1.0)
     }
 }

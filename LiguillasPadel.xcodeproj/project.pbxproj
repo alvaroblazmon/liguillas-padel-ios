@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		12543D6F0682991D8EBDA05F /* Pods_LiguillasPadelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1B813AB2286DC0C0F4E89A /* Pods_LiguillasPadelUITests.framework */; };
+		383055CD21385D1500AABFC5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383055CB21385D1500AABFC5 /* HomeVC.swift */; };
+		383055CE21385D1500AABFC5 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383055CC21385D1500AABFC5 /* HomeVC.xib */; };
+		383055D321385E5200AABFC5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383055D121385E5200AABFC5 /* InfoVC.swift */; };
+		383055D421385E5200AABFC5 /* InfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383055D221385E5200AABFC5 /* InfoVC.xib */; };
+		383055D721385F6800AABFC5 /* CalendarVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383055D621385F6800AABFC5 /* CalendarVM.swift */; };
+		383055DB213870DE00AABFC5 /* LeagueTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383055D9213870DE00AABFC5 /* LeagueTVC.swift */; };
+		383055DC213870DE00AABFC5 /* LeagueTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383055DA213870DE00AABFC5 /* LeagueTVC.xib */; };
 		387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A3212F1A0B004AAA95 /* AppDelegate.swift */; };
-		387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266A5212F1A0B004AAA95 /* ViewController.swift */; };
 		387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266A7212F1A0B004AAA95 /* Main.storyboard */; };
 		387266AB212F1A0D004AAA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387266AA212F1A0D004AAA95 /* Assets.xcassets */; };
 		387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */; };
@@ -64,9 +70,15 @@
 
 /* Begin PBXFileReference section */
 		0263CFEE6A093C6ABC2F5BEE /* Pods-LiguillasPadel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadel/Pods-LiguillasPadel.debug.xcconfig"; sourceTree = "<group>"; };
+		383055CB21385D1500AABFC5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		383055CC21385D1500AABFC5 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		383055D121385E5200AABFC5 /* InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		383055D221385E5200AABFC5 /* InfoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoVC.xib; sourceTree = "<group>"; };
+		383055D621385F6800AABFC5 /* CalendarVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarVM.swift; sourceTree = "<group>"; };
+		383055D9213870DE00AABFC5 /* LeagueTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueTVC.swift; sourceTree = "<group>"; };
+		383055DA213870DE00AABFC5 /* LeagueTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeagueTVC.xib; sourceTree = "<group>"; };
 		387266A0212F1A0B004AAA95 /* LiguillasPadel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiguillasPadel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387266A3212F1A0B004AAA95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		387266A5212F1A0B004AAA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		387266A8212F1A0B004AAA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		387266AA212F1A0D004AAA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387266AD212F1A0D004AAA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -141,6 +153,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383055CA21385CFE00AABFC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383055D9213870DE00AABFC5 /* LeagueTVC.swift */,
+				383055DA213870DE00AABFC5 /* LeagueTVC.xib */,
+				383055CC21385D1500AABFC5 /* HomeVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383055CF21385E0A00AABFC5 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				383055D021385E4200AABFC5 /* View */,
+				383055D121385E5200AABFC5 /* InfoVC.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		383055D021385E4200AABFC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383055D221385E5200AABFC5 /* InfoVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383055D521385EDE00AABFC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				839A08582137D37000346853 /* CalendarVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383055D821385F7E00AABFC5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				383055D621385F6800AABFC5 /* CalendarVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		38726697212F1A0B004AAA95 = {
 			isa = PBXGroup;
 			children = (
@@ -169,11 +224,10 @@
 				839A087E2137DEE700346853 /* Service */,
 				839A08722137D7CF00346853 /* Utils */,
 				839A086D2137D63D00346853 /* Coordinator */,
-				839A08472137D36F00346853 /* Data */,
+				839A08472137D36F00346853 /* Model */,
 				839A08542137D37000346853 /* ViewControllers */,
 				839A084D2137D37000346853 /* ViewModel */,
 				387266D1212F1C4E004AAA95 /* Mandatory */,
-				387266A5212F1A0B004AAA95 /* ViewController.swift */,
 				387266A7212F1A0B004AAA95 /* Main.storyboard */,
 				387266AC212F1A0D004AAA95 /* LaunchScreen.storyboard */,
 			);
@@ -222,7 +276,7 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		839A08472137D36F00346853 /* Data */ = {
+		839A08472137D36F00346853 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				839A08482137D36F00346853 /* Match.swift */,
@@ -231,7 +285,7 @@
 				839A084B2137D36F00346853 /* League.swift */,
 				839A084C2137D36F00346853 /* Player.swift */,
 			);
-			path = Data;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		839A084D2137D37000346853 /* ViewModel */ = {
@@ -252,6 +306,7 @@
 		839A08542137D37000346853 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				383055CF21385E0A00AABFC5 /* Info */,
 				839A08552137D37000346853 /* Leagues */,
 			);
 			path = ViewControllers;
@@ -260,8 +315,10 @@
 		839A08552137D37000346853 /* Leagues */ = {
 			isa = PBXGroup;
 			children = (
+				383055CA21385CFE00AABFC5 /* View */,
 				839A08562137D37000346853 /* ViewModel */,
 				839A08572137D37000346853 /* Calendar */,
+				383055CB21385D1500AABFC5 /* HomeVC.swift */,
 			);
 			path = Leagues;
 			sourceTree = "<group>";
@@ -277,7 +334,8 @@
 		839A08572137D37000346853 /* Calendar */ = {
 			isa = PBXGroup;
 			children = (
-				839A08582137D37000346853 /* CalendarVC.xib */,
+				383055D821385F7E00AABFC5 /* ViewModel */,
+				383055D521385EDE00AABFC5 /* View */,
 				839A08592137D37000346853 /* Match */,
 				839A085D2137D37000346853 /* CalendarVC.swift */,
 			);
@@ -449,12 +507,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383055DC213870DE00AABFC5 /* LeagueTVC.xib in Resources */,
+				383055D421385E5200AABFC5 /* InfoVC.xib in Resources */,
 				387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */,
 				387266AB212F1A0D004AAA95 /* Assets.xcassets in Resources */,
 				3885F8D02133D11400CEBE00 /* GoogleService-Info.plist in Resources */,
 				387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */,
 				839A08692137D37000346853 /* CalendarVC.xib in Resources */,
 				839A086B2137D37000346853 /* MatchTVC.xib in Resources */,
+				383055CE21385D1500AABFC5 /* HomeVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,11 +655,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383055D721385F6800AABFC5 /* CalendarVM.swift in Sources */,
+				383055DB213870DE00AABFC5 /* LeagueTVC.swift in Sources */,
 				839A08642137D37000346853 /* WeekItemVM.swift in Sources */,
 				839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */,
 				839A08682137D37000346853 /* TableItemVM.swift in Sources */,
 				839A08712137D68900346853 /* AppCoordinator.swift in Sources */,
-				387266A6212F1A0B004AAA95 /* ViewController.swift in Sources */,
+				383055D321385E5200AABFC5 /* InfoVC.swift in Sources */,
 				839A08672137D37000346853 /* LeagueItemVM.swift in Sources */,
 				839A08662137D37000346853 /* RankingItemVM.swift in Sources */,
 				839A086C2137D37000346853 /* CalendarVC.swift in Sources */,
@@ -611,6 +674,7 @@
 				839A086F2137D66600346853 /* MainCoordinator.swift in Sources */,
 				839A08632137D37000346853 /* CalendarItemVM.swift in Sources */,
 				839A08652137D37000346853 /* MatchItemVM.swift in Sources */,
+				383055CD21385D1500AABFC5 /* HomeVC.swift in Sources */,
 				839A08742137D9C700346853 /* Helpers.swift in Sources */,
 				839A085E2137D37000346853 /* Match.swift in Sources */,
 				839A08802137DF0900346853 /* HomeService.swift in Sources */,

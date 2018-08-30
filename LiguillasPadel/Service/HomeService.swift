@@ -6,21 +6,42 @@
 //  Copyright © 2018 Alvaro Blazquez Montero. All rights reserved.
 //
 
-import Foundation
+import Moya
 
-/// Actions for Service of the Web Views
-enum WebViewService {
-    /// Represent a call to main screen
+enum HomeService {
     case main
 }
 
-/// WebViewService Implementation
-extension WebViewService {
+extension HomeService: TargetType {
+
     var baseURL: URL { return URL(string: Constant.URLAPI)! }
-    var path: URL {
+    var path: String {
         switch self {
         case .main:
-            return URL(string: "https://www.nutritienda.com")!
+            return "total.php"
         }
+    }
+    var method: Moya.Method {
+        switch self {
+        case .main:
+            return .get
+        }
+    }
+    var task: Task {
+        switch self {
+        case .main:
+            return .requestPlain
+            //let parameters = ["token": ""]
+            //return .requestParameters(parameters: parameters, encoding: JSONEncoding.default)
+        }
+    }
+    var sampleData: Data {
+        switch self {
+        case .main:
+            return "".utf8Encoded
+        }
+    }
+    var headers: [String: String]? {
+        return ["Content-type": "application/json"]
     }
 }

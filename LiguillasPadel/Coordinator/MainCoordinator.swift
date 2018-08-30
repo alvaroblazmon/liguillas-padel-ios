@@ -32,10 +32,6 @@ class MainCoordinator: CoordinatorProtocol {
     
     func start() {
         
-        /*
-         cartVC.title = Localized.shoppingCart.raw
-         cartVC.tabBarItem = UITabBarItem(title: Localized.shoppingCart.raw, image: #imageLiteral(resourceName: "ic_tb_sc"), tag: 4)*/
-        
         tabBarController.tabBar.tintColor = UIColor.green
         
         for viewTab in iterateEnum(ViewsInTab.self) {
@@ -45,11 +41,11 @@ class MainCoordinator: CoordinatorProtocol {
             var coordinator: CoordinatorProtocol
             switch viewTab {
             case ViewsInTab.home:
-                //coordinator = HomeCoordinator(navigationController: viewNVC)
-                //viewNVC.tabBarItem = UITabBarItem(title: Localized.home.raw, image: #imageLiteral(resourceName: "ic_tb_home"), tag: 0)
+                coordinator = HomeCoordinator(navigationController: viewNVC)
+                viewNVC.tabBarItem = UITabBarItem(title: "Liguillas", image: #imageLiteral(resourceName: "ic_assignment"), tag: 0)
             case ViewsInTab.info:
-                //coordinator = ChatCoordinator(navigationController: viewNVC)
-                //viewNVC.tabBarItem = UITabBarItem(title: Localized.chat.raw, image: #imageLiteral(resourceName: "ic_tb_chat"), tag: 1)
+                coordinator = HomeCoordinator(navigationController: viewNVC)
+                viewNVC.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "ic_assignment"), tag: 1)
             }
             coordinator.start()
             if tabBarController.viewControllers == nil {

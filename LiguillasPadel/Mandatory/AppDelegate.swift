@@ -22,18 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.backgroundColor = .white
         
         let mainViewController = UITabBarController()
-        
-        
-        /*let mainViewController = UITabBarController()
         let mainCoordinator = MainCoordinator(tabBarController: mainViewController, window: window)
-            mainCoordinator.start()
-        } else {
-            let navigationController = UINavigationController()
-            window?.rootViewController = navigationController
-            window?.makeKeyAndVisible()
-            let appCoordinator = AppCoordinator(navigationController: navigationController)
-            appCoordinator.start()
-        }*/
+        mainCoordinator.start()
 
         return true
     }

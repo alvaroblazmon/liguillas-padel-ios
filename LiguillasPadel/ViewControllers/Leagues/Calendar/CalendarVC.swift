@@ -10,7 +10,7 @@ import UIKit
 
 class CalendarVC: UIViewController {
     
-    var viewModel: CalendarItemVM!
+    var viewModel: CalendarVM!
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -24,7 +24,6 @@ class CalendarVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
     func prepareTableView() {
         let nib = UINib(nibName: MatchTVC.XibName, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: MatchTVC.ReuseIdentifier)
