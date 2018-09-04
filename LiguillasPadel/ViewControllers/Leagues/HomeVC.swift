@@ -17,7 +17,7 @@ class HomeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
-        title = "Liguillas de Padel"
+        title = "Liguillas"
         prepareTableView()
         viewModel.reloadData()
     }

@@ -32,20 +32,22 @@ class MainCoordinator: CoordinatorProtocol {
     
     func start() {
         
-        tabBarController.tabBar.tintColor = UIColor.green
+        tabBarController.tabBar.tintColor = UIColor.Padel.Purple
         
         for viewTab in iterateEnum(ViewsInTab.self) {
             let viewNVC = UINavigationController()
-            viewNVC.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
-            viewNVC.navigationBar.tintColor = UIColor.green
+            viewNVC.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.Padel.Purple]
+            viewNVC.navigationBar.tintColor = UIColor.Padel.Purple
+            viewNVC.navigationBar.largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.Padel.Purple]
+            
             var coordinator: CoordinatorProtocol
             switch viewTab {
             case ViewsInTab.home:
                 coordinator = HomeCoordinator(navigationController: viewNVC)
-                viewNVC.tabBarItem = UITabBarItem(title: "Liguillas", image: #imageLiteral(resourceName: "ic_assignment"), tag: 0)
+                viewNVC.tabBarItem = UITabBarItem(title: "Liguillas", image: #imageLiteral(resourceName: "outline_toc_black_36pt"), tag: 0)
             case ViewsInTab.info:
                 coordinator = HomeCoordinator(navigationController: viewNVC)
-                viewNVC.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "ic_assignment"), tag: 1)
+                viewNVC.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "outline_info_black_36pt"), tag: 1)
             }
             coordinator.start()
             if tabBarController.viewControllers == nil {

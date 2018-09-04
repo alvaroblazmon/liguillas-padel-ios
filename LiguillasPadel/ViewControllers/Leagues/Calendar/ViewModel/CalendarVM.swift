@@ -19,6 +19,10 @@ class CalendarVM {
         self.coordinator = coordinator
     }
     
+    var title: String {
+        return parent?.name ?? ""
+    }
+    
     var count: Int {
         return data.count
     }
