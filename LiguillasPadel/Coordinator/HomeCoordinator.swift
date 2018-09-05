@@ -38,7 +38,6 @@ class HomeCoordinator: CoordinatorProtocol {
                 let viewModel = CalendarVM(data: calendarItemVM, coordinator: self)
                 viewModel.parent = parent
                 calendarVC.viewModel = viewModel
-                
                 navigationController.pushViewController(calendarVC, animated: false)
             }
         }
