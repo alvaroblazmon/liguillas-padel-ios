@@ -22,6 +22,8 @@
 		387266B9212F1A0D004AAA95 /* LiguillasPadelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */; };
 		387266C4212F1A0D004AAA95 /* LiguillasPadelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */; };
 		3885F8D02133D11400CEBE00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3885F8CF2133D11400CEBE00 /* GoogleService-Info.plist */; };
+		38AEAD3A213C51A600483151 /* RankingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AEAD38213C51A600483151 /* RankingTVC.swift */; };
+		38AEAD3B213C51A600483151 /* RankingTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AEAD39213C51A600483151 /* RankingTVC.xib */; };
 		839A085E2137D37000346853 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08482137D36F00346853 /* Match.swift */; };
 		839A085F2137D37000346853 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08492137D36F00346853 /* Week.swift */; };
 		839A08602137D37000346853 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A084A2137D36F00346853 /* Ranking.swift */; };
@@ -90,6 +92,8 @@
 		387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiguillasPadelUITests.swift; sourceTree = "<group>"; };
 		387266C5212F1A0D004AAA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3885F8CF2133D11400CEBE00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38AEAD38213C51A600483151 /* RankingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTVC.swift; sourceTree = "<group>"; };
+		38AEAD39213C51A600483151 /* RankingTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTVC.xib; sourceTree = "<group>"; };
 		5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelUITests/Pods-LiguillasPadelUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		839A08482137D36F00346853 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
@@ -263,6 +267,23 @@
 			path = Mandatory;
 			sourceTree = "<group>";
 		};
+		38AEAD36213C515100483151 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				38AEAD37213C517300483151 /* View */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		38AEAD37213C517300483151 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38AEAD38213C51A600483151 /* RankingTVC.swift */,
+				38AEAD39213C51A600483151 /* RankingTVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		66594347F917E701C8F849A0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -315,6 +336,7 @@
 		839A08552137D37000346853 /* Leagues */ = {
 			isa = PBXGroup;
 			children = (
+				38AEAD36213C515100483151 /* Table */,
 				383055CA21385CFE00AABFC5 /* View */,
 				839A08562137D37000346853 /* ViewModel */,
 				839A08572137D37000346853 /* Calendar */,
@@ -507,6 +529,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38AEAD3B213C51A600483151 /* RankingTVC.xib in Resources */,
 				383055DC213870DE00AABFC5 /* LeagueTVC.xib in Resources */,
 				383055D421385E5200AABFC5 /* InfoVC.xib in Resources */,
 				387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */,
@@ -656,6 +679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383055D721385F6800AABFC5 /* CalendarVM.swift in Sources */,
+				38AEAD3A213C51A600483151 /* RankingTVC.swift in Sources */,
 				383055DB213870DE00AABFC5 /* LeagueTVC.swift in Sources */,
 				839A08642137D37000346853 /* WeekItemVM.swift in Sources */,
 				839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */,
