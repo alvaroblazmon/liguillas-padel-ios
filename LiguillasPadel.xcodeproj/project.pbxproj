@@ -22,6 +22,7 @@
 		387266B9212F1A0D004AAA95 /* LiguillasPadelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266B8212F1A0D004AAA95 /* LiguillasPadelTests.swift */; };
 		387266C4212F1A0D004AAA95 /* LiguillasPadelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387266C3212F1A0D004AAA95 /* LiguillasPadelUITests.swift */; };
 		3885F8D02133D11400CEBE00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3885F8CF2133D11400CEBE00 /* GoogleService-Info.plist */; };
+		83604338213FCEA90028F8C8 /* InfoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83604337213FCEA90028F8C8 /* InfoCoordinator.swift */; };
 		839A085E2137D37000346853 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08482137D36F00346853 /* Match.swift */; };
 		839A085F2137D37000346853 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08492137D36F00346853 /* Week.swift */; };
 		839A08602137D37000346853 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A084A2137D36F00346853 /* Ranking.swift */; };
@@ -92,6 +93,7 @@
 		3885F8CF2133D11400CEBE00 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelUITests/Pods-LiguillasPadelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83604337213FCEA90028F8C8 /* InfoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinator.swift; sourceTree = "<group>"; };
 		839A08482137D36F00346853 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		839A08492137D36F00346853 /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
 		839A084A2137D36F00346853 /* Ranking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
@@ -365,6 +367,7 @@
 				839A086E2137D66600346853 /* MainCoordinator.swift */,
 				839A08702137D68900346853 /* AppCoordinator.swift */,
 				839A08752137DA6E00346853 /* HomeCoordinator.swift */,
+				83604337213FCEA90028F8C8 /* InfoCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -658,6 +661,7 @@
 				383055D721385F6800AABFC5 /* CalendarVM.swift in Sources */,
 				383055DB213870DE00AABFC5 /* LeagueTVC.swift in Sources */,
 				839A08642137D37000346853 /* WeekItemVM.swift in Sources */,
+				83604338213FCEA90028F8C8 /* InfoCoordinator.swift in Sources */,
 				839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */,
 				839A08682137D37000346853 /* TableItemVM.swift in Sources */,
 				839A08712137D68900346853 /* AppCoordinator.swift in Sources */,

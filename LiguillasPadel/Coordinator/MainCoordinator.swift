@@ -46,7 +46,7 @@ class MainCoordinator: CoordinatorProtocol {
                 coordinator = HomeCoordinator(navigationController: viewNVC)
                 viewNVC.tabBarItem = UITabBarItem(title: "Liguillas", image: #imageLiteral(resourceName: "outline_toc_black_36pt"), tag: 0)
             case ViewsInTab.info:
-                coordinator = HomeCoordinator(navigationController: viewNVC)
+                coordinator = InfoCoordinator(navigationController: viewNVC)
                 viewNVC.tabBarItem = UITabBarItem(title: "Info", image: #imageLiteral(resourceName: "outline_info_black_36pt"), tag: 1)
             }
             coordinator.start()

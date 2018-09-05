@@ -12,6 +12,8 @@ class InfoVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.prefersLargeTitles = true
+        title = "Info"
 
         // Do any additional setup after loading the view.
     }
@@ -21,14 +23,15 @@ class InfoVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func tapEmail(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "mailto:info@liguillasdepadel.es")!)
     }
-    */
+    
+    @IBAction func tapWhastApp(_ sender: Any) {
+        let whatsappURL = URL(string: "https://api.whatsapp.com/send?phone=34644228705")
+        if UIApplication.shared.canOpenURL(whatsappURL!) {
+            UIApplication.shared.open(whatsappURL!)
+        }
+    }
 
 }
