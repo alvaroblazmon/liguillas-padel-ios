@@ -35,4 +35,11 @@ class CalendarVM {
         return data.itemAtIndex(index)
     }
     
+    func goToTable() {
+        if let parent = parent {
+            let transition = HomeTransition.goTable(tableItemVM: parent.table, parent: parent)
+            coordinator.performTransition(transition: transition)
+        }
+    }
+    
 }

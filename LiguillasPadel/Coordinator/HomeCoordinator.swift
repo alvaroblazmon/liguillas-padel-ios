@@ -11,6 +11,7 @@ import Moya
 
 enum HomeTransition {
     case goCalendar(calendarItemVM: CalendarItemVM, parent: LeagueItemVM)
+    case goTable(tableItemVM: TableItemVM, parent: LeagueItemVM)
 }
 
 class HomeCoordinator: CoordinatorProtocol {
@@ -39,6 +40,12 @@ class HomeCoordinator: CoordinatorProtocol {
                 viewModel.parent = parent
                 calendarVC.viewModel = viewModel
                 navigationController.pushViewController(calendarVC, animated: false)
+            case .goTable(let tableItemVM, let parent):
+                let tableVC = TableVC()
+                let viewModel = TableVM(data: tableItemVM, coordinator: self)
+                viewModel.parent = parent
+                tableVC.viewModel = viewModel
+                navigationController.pushViewController(tableVC, animated: false)
             }
         }
     }

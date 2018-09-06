@@ -15,9 +15,9 @@ class CalendarVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = viewModel.title
-        //navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
-        navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "outline_looks_one_black_36pt"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(tapLeague))
+        title = viewModel.title
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "outline_looks_one_black_36pt"), style: UIBarButtonItemStyle.plain, target: self, action: #selector(tapLeague))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Clasificación", style: UIBarButtonItemStyle.plain, target: self, action: #selector(tapLeague))
         navigationItem.rightBarButtonItem?.tintColor = UIColor.Padel.Purple
         prepareTableView()
         // Do any additional setup after loading the view.
@@ -35,7 +35,7 @@ class CalendarVC: UIViewController {
     }
     
     @objc func tapLeague() {
-        
+        viewModel.goToTable()
     }
 
 }

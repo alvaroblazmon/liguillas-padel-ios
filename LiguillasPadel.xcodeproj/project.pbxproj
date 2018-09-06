@@ -24,6 +24,10 @@
 		3885F8D02133D11400CEBE00 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3885F8CF2133D11400CEBE00 /* GoogleService-Info.plist */; };
 		38AEAD3A213C51A600483151 /* RankingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AEAD38213C51A600483151 /* RankingTVC.swift */; };
 		38AEAD3B213C51A600483151 /* RankingTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38AEAD39213C51A600483151 /* RankingTVC.xib */; };
+		833755DC21416FAB004C1A6A /* InfoCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83604337213FCEA90028F8C8 /* InfoCoordinator.swift */; };
+		833755DF214170EF004C1A6A /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833755DD214170EF004C1A6A /* TableVC.swift */; };
+		833755E0214170EF004C1A6A /* TableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833755DE214170EF004C1A6A /* TableVC.xib */; };
+		833755E3214173F7004C1A6A /* TableVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833755E2214173F7004C1A6A /* TableVM.swift */; };
 		839A085E2137D37000346853 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08482137D36F00346853 /* Match.swift */; };
 		839A085F2137D37000346853 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08492137D36F00346853 /* Week.swift */; };
 		839A08602137D37000346853 /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A084A2137D36F00346853 /* Ranking.swift */; };
@@ -96,6 +100,9 @@
 		38AEAD39213C51A600483151 /* RankingTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RankingTVC.xib; sourceTree = "<group>"; };
 		5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		725F7990770608A6E8919BF7 /* Pods-LiguillasPadelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelUITests/Pods-LiguillasPadelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		833755DD214170EF004C1A6A /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		833755DE214170EF004C1A6A /* TableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableVC.xib; sourceTree = "<group>"; };
+		833755E2214173F7004C1A6A /* TableVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVM.swift; sourceTree = "<group>"; };
 		83604337213FCEA90028F8C8 /* InfoCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCoordinator.swift; sourceTree = "<group>"; };
 		839A08482137D36F00346853 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
 		839A08492137D36F00346853 /* Week.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
@@ -271,7 +278,9 @@
 		38AEAD36213C515100483151 /* Table */ = {
 			isa = PBXGroup;
 			children = (
+				833755E1214173E5004C1A6A /* ViewModel */,
 				38AEAD37213C517300483151 /* View */,
+				833755DD214170EF004C1A6A /* TableVC.swift */,
 			);
 			path = Table;
 			sourceTree = "<group>";
@@ -279,6 +288,7 @@
 		38AEAD37213C517300483151 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				833755DE214170EF004C1A6A /* TableVC.xib */,
 				38AEAD38213C51A600483151 /* RankingTVC.swift */,
 				38AEAD39213C51A600483151 /* RankingTVC.xib */,
 			);
@@ -296,6 +306,14 @@
 				D6082E7788B4B29640135AF6 /* Pods-LiguillasPadelUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		833755E1214173E5004C1A6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				833755E2214173F7004C1A6A /* TableVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		839A08472137D36F00346853 /* Model */ = {
@@ -533,6 +551,7 @@
 			files = (
 				38AEAD3B213C51A600483151 /* RankingTVC.xib in Resources */,
 				383055DC213870DE00AABFC5 /* LeagueTVC.xib in Resources */,
+				833755E0214170EF004C1A6A /* TableVC.xib in Resources */,
 				383055D421385E5200AABFC5 /* InfoVC.xib in Resources */,
 				387266AE212F1A0D004AAA95 /* LaunchScreen.storyboard in Resources */,
 				387266AB212F1A0D004AAA95 /* Assets.xcassets in Resources */,
@@ -684,7 +703,6 @@
 				38AEAD3A213C51A600483151 /* RankingTVC.swift in Sources */,
 				383055DB213870DE00AABFC5 /* LeagueTVC.swift in Sources */,
 				839A08642137D37000346853 /* WeekItemVM.swift in Sources */,
-				83604338213FCEA90028F8C8 /* InfoCoordinator.swift in Sources */,
 				839A087D2137DEBD00346853 /* ViewModelDelegate.swift in Sources */,
 				839A08682137D37000346853 /* TableItemVM.swift in Sources */,
 				839A08712137D68900346853 /* AppCoordinator.swift in Sources */,
@@ -692,12 +710,15 @@
 				839A08672137D37000346853 /* LeagueItemVM.swift in Sources */,
 				839A08662137D37000346853 /* RankingItemVM.swift in Sources */,
 				839A086C2137D37000346853 /* CalendarVC.swift in Sources */,
+				833755DF214170EF004C1A6A /* TableVC.swift in Sources */,
 				839A086A2137D37000346853 /* MatchTVC.swift in Sources */,
 				839A087B2137DE9200346853 /* ExtensionMoya.swift in Sources */,
 				839A085F2137D37000346853 /* Week.swift in Sources */,
+				833755DC21416FAB004C1A6A /* InfoCoordinator.swift in Sources */,
 				839A08822137E00600346853 /* Constant.swift in Sources */,
 				387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */,
 				839A08792137DE0700346853 /* ViewModel.swift in Sources */,
+				833755E3214173F7004C1A6A /* TableVM.swift in Sources */,
 				839A086F2137D66600346853 /* MainCoordinator.swift in Sources */,
 				839A08632137D37000346853 /* CalendarItemVM.swift in Sources */,
 				839A08652137D37000346853 /* MatchItemVM.swift in Sources */,

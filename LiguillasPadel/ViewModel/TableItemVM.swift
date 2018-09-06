@@ -10,8 +10,16 @@ class TableItemVM {
     
     let data: [RankingItemVM]
     
+    var count: Int {
+        return data.count
+    }
+    
+    func itemAtIndex(_ index: Int) -> RankingItemVM? {
+        return data[guarded: index]
+    }
+    
     init(_ rankings: [Ranking]) {
-        self.data = rankings.sorted(by: { $0.position > $1.position }).map { RankingItemVM($0) }
+        self.data = rankings.sorted(by: { $0.position < $1.position }).map { RankingItemVM($0) }
     }
     
 }

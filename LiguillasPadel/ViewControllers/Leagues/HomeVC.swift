@@ -18,6 +18,7 @@ class HomeVC: UIViewController {
         super.viewDidLoad()
         self.navigationController?.navigationBar.prefersLargeTitles = true
         title = "Liguillas"
+        navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         prepareTableView()
         viewModel.reloadData()
     }
