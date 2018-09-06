@@ -39,7 +39,7 @@ class MatchItemVM {
     }
     
     var result: String {
-        if isFinish { return "PENDIENTE DE JUGAR" }
+        if !isFinish { return "PENDIENTE DE JUGAR" }
         return match.sets.map { "\($0.home)-\($0.away)" }.joined(separator: " / ")
     }
     
