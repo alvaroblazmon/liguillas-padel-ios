@@ -53,6 +53,8 @@
 		839A08802137DF0900346853 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A087F2137DF0900346853 /* HomeService.swift */; };
 		839A08822137E00600346853 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08812137E00600346853 /* Constant.swift */; };
 		839A08842137E0B600346853 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A08832137E0B600346853 /* HomeVM.swift */; };
+		83D8DB4F21425F7700F2476B /* TableHFV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D8DB4E21425F7700F2476B /* TableHFV.swift */; };
+		83D8DB5121425F8B00F2476B /* TableHFV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83D8DB5021425F8B00F2476B /* TableHFV.xib */; };
 		A99486D5EB919EA97A03A2E4 /* Pods_LiguillasPadel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */; };
 		DF2FA6CBB7ED652820C5BF3B /* Pods_LiguillasPadelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E916BD6E26DBD04D8D1A490 /* Pods_LiguillasPadelTests.framework */; };
 /* End PBXBuildFile section */
@@ -129,6 +131,8 @@
 		839A087F2137DF0900346853 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		839A08812137E00600346853 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		839A08832137E0B600346853 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
+		83D8DB4E21425F7700F2476B /* TableHFV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHFV.swift; sourceTree = "<group>"; };
+		83D8DB5021425F8B00F2476B /* TableHFV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHFV.xib; sourceTree = "<group>"; };
 		886B00D6958027BAA2312477 /* Pods_LiguillasPadel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LiguillasPadel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8D5AF6D62039D80112EC539 /* Pods-LiguillasPadelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF0671DF8FFCC8F0DE0363D8 /* Pods-LiguillasPadelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiguillasPadelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiguillasPadelTests/Pods-LiguillasPadelTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +295,8 @@
 				833755DE214170EF004C1A6A /* TableVC.xib */,
 				38AEAD38213C51A600483151 /* RankingTVC.swift */,
 				38AEAD39213C51A600483151 /* RankingTVC.xib */,
+				83D8DB4E21425F7700F2476B /* TableHFV.swift */,
+				83D8DB5021425F8B00F2476B /* TableHFV.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -558,6 +564,7 @@
 				3885F8D02133D11400CEBE00 /* GoogleService-Info.plist in Resources */,
 				387266A9212F1A0B004AAA95 /* Main.storyboard in Resources */,
 				839A08692137D37000346853 /* CalendarVC.xib in Resources */,
+				83D8DB5121425F8B00F2476B /* TableHFV.xib in Resources */,
 				839A086B2137D37000346853 /* MatchTVC.xib in Resources */,
 				383055CE21385D1500AABFC5 /* HomeVC.xib in Resources */,
 			);
@@ -716,6 +723,7 @@
 				839A085F2137D37000346853 /* Week.swift in Sources */,
 				833755DC21416FAB004C1A6A /* InfoCoordinator.swift in Sources */,
 				839A08822137E00600346853 /* Constant.swift in Sources */,
+				83D8DB4F21425F7700F2476B /* TableHFV.swift in Sources */,
 				387266A4212F1A0B004AAA95 /* AppDelegate.swift in Sources */,
 				839A08792137DE0700346853 /* ViewModel.swift in Sources */,
 				833755E3214173F7004C1A6A /* TableVM.swift in Sources */,
